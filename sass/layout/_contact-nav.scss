@@ -1,0 +1,47 @@
+.cont {
+	display: flex;
+	padding-left: 0px;
+}
+
+.cont__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.cont__link {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color:var(--first-color);
+	fill: var(--first-color);
+
+	display: flex;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	transition-property: fill, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover {
+	fill: var(--accent-color);
+	color: var(--accent-color);
+}
+
+&:focus {
+	color: var(--accent-color);
+	background-color: var(--additional-color);
+	fill: var(--accent-color);
+	box-shadow: none;
+}
+
+}
+
+.cont__icon  {
+	margin-right: 10px;
+	display: flex;
+}
+
+
