@@ -1,0 +1,32 @@
+.footer__address__box {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	width: 231px;
+}
+
+.footer__join {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 206px;
+	margin-left: 70px;
+}
+
+.join__text {
+	margin-bottom: 20px;	
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	color: var(--additional-color);
+}
+
+.join__list {
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	gap: 10px;
+}
+
+

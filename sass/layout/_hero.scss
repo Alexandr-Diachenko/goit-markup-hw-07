@@ -2,6 +2,7 @@
 	background-color: var(--background-color-h-f);
 	padding: 200px 0px;
 	text-align: center;
+
 }
 
 .hero__fon {
@@ -29,8 +30,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
-
 }
+
 .hero__button {
 	background-color: var(--accent-color);
 	font-family: 'Roboto',sans-serif;
@@ -56,10 +57,7 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-	&:hover {
-	background-color: var(--hero-button-hover);
-}
-	&:focus {
+	&:hover, &:focus  {
 	background-color: var(--hero-button-hover);
 }
 }

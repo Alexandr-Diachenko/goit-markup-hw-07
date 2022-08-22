@@ -48,30 +48,6 @@
 .team__soc {
 	display: flex;
 	justify-content: center;
-	padding-left: 0%;
+	padding-left: 0;
 	gap: 10px;
-}
-
-.team__soc__link {
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	background-color: transparent;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	fill: var(--color-icon);
-
-	transition-property: fill, background-color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-	&:hover {
-	fill: var(--additional-color);
-	background-color: var(--accent-color)
-}
-	&:focus {
-	fill: var(--additional-color);
-	background-color: var(--accent-color)
-}
 }

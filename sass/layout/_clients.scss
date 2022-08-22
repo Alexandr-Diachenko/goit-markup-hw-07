@@ -35,15 +35,19 @@ margin-bottom: 50px;
 
 	border: 1px solid #AFB1B8;
 	
-	transition-property: border-color;
+	transition-property: border-color, fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-	&:focus,
-	&:hover {
-	background-color: var(--additional-color);
+	&:focus .clients__icon,
+	&:hover .clients__icon  {
+	fill: var(--accent-color);
+}
+
+	&:focus, &:hover  {
 	fill: var(--accent-color);
 	border-color: var(--accent-color);
+	outline: none;
 }
 
 }
@@ -52,11 +56,8 @@ margin-bottom: 50px;
 .clients__icon {
 	display: flex;
 	fill: var(--color-icon);
+	
 	transition-property: fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	&:hover,
-	&:focus  {
-	fill: var(--accent-color);
-}
 }

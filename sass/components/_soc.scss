@@ -1,0 +1,20 @@
+.link__soc {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: transparent;
+	
+	transition-property: fill, background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	
+	&:hover, &:focus {
+	fill: var(--additional-color);
+	background-color:var(--accent-color);
+	border-color: transparent;
+}
+}

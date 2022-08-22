@@ -2,29 +2,33 @@
 @import './base/reset';
 @import './base/common';
 
-@import './components/container';
-@import './components/container-flex';
-@import './components/section';
-@import './components/list';
-@import './components/current';
-@import './utils/visually-hidden';
+@import './utils/container';
+@import './utils/container-flex';
+@import './base/section';
+@import './utils/list';
+@import './utils/current';
+@import './base/visually-hidden';
+@import './utils/logo-dark';
+@import './utils/logo-white';
+@import './utils/soc-dark';
+@import './utils/soc-white';
 
 @import './layout/page-header';
 @import './layout/contact-nav';
-@import './layout/header-logo';
+@import './components/logo';
 @import './layout/hero';
 @import './layout/features';
 @import './layout/about';
 @import './layout/team';
+@import './components/soc';
 @import './layout/clients';
 @import './layout/footer';
-@import './layout/footer-logo';
-@import './layout/footer-soc';
+@import './layout/footer-join';
 @import './layout/footer-online';
-@import './layout/modal';
+@import './components/modal';
 
 @import './layout/portfolio-btn';
-@import './layout/our-works';
+@import './layout/portfolio';
 
 
 
